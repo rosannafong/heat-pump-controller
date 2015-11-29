@@ -3,7 +3,7 @@ Handlebars.getTemplate = function(name) {
   if(Handlebars.templates === undefined || Handlebars.templates[name] === undefined) {
     //console.log("template undefined");
     $.ajax({
-      url: '../js/templates/' + name + '.hbs',
+      url: 'js/templates/' + name + '.hbs',
       success : function(data) {
         //console.log("success compiling template");
         if(Handlebars.templates === undefined) {
