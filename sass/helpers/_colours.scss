@@ -1,0 +1,69 @@
+/*Table of contents
+1. Base colours
+2. Colour tints
+	2.1 Nature green tints
+	2.2 Green tints
+	2.3 Dark green tints
+	2.4 Rose tints
+	2.5 Black tints
+	2.6 Blue tints
+3. Colour shades
+	3.1 Beige shades
+	3.2 White shades
+=====================================================================================================
+*/
+
+/*1. Base colours
+=====================================================================================================*/
+$natureGreen: #7d998a;
+$green: #73705f;
+$darkGreen: #54554d;
+$rose: #bd7760;
+$beige: #cfc3b3;
+$white: #f2f2f2;
+$black: #000000;
+$blue: #007fa9;
+
+/*2. Colour tints
+=====================================================================================================*/
+/*2.1 Nature green tints*/
+$natureGreenTint25: tint($natureGreen, 25%);
+$natureGreenTint50: tint($natureGreen, 50%);
+$natureGreenTint75: tint($natureGreen, 75%);
+
+/*2.2 Green tints*/
+$greenTint25: tint($green, 25%);
+$greenTint50: tint($green, 50%);
+$greenTint75: tint($green, 75%);
+
+/*2.3 Dark green tints*/
+$darkGreenTint25: tint($darkGreen, 25%);
+$darkGreenTint50: tint($darkGreen, 50%);
+$darkGreenTint75: tint($darkGreen, 75%);
+
+/*2.4 Rose tints*/
+$roseTint25: tint($rose, 25%);
+$roseTint50: tint($rose, 50%);
+$roseTint75: tint($rose, 75%);
+
+/*2.5 Black tints*/
+$blackTint25: tint($black, 25%);
+$blackTint50: tint($black, 50%);
+$blackTint75: tint($black, 75%);
+
+/*2.6 Blue tints*/
+$blueTint25: tint($blue, 25%);
+$blueTint50: tint($blue, 50%);
+$blueTint75: tint($blue, 75%);
+
+/*3. Colour shades
+=====================================================================================================*/
+/*3.1 Beige shades*/
+$beigeShade5: shade($beige, 5%);
+$beigeShade10: shade($beige, 10%);
+$beigeShade15: shade($beige, 15%);
+
+/*3.2 White shades*/
+$whiteShade5: shade($white, 5%);
+$whiteShade10: shade($white, 10%);
+$whiteShade15: shade($white, 15%);

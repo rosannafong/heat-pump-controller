@@ -1,0 +1,125 @@
+/*Table of contents
+1. Panels
+2. Range slider
+	2.1 Slider output
+	2.2 Slider handle
+	2.3 Slider active segment
+3. Switches
+4. Buttons
+5. Labels
+6. Forms
+7. Links
+=====================================================================================================
+*/
+
+/*1. Panels
+=====================================================================================================*/
+.panel, .panel.callout {
+	border-color: $darkGreenTint50;
+}
+
+.panel.callout {
+	background: none;
+}
+
+/*2. Range slider
+=====================================================================================================*/
+/*2.1 Slider output*/
+.slider-output {
+	font-size: 1.5em;
+	@media screen and ($break-md-min) {
+		line-height: 2.25;
+	}
+}
+
+/*2.2 Slider handle*/
+.range-slider.radius .range-slider-handle {
+	background: $darkGreenTint25;
+}
+
+.range-slider.radius .range-slider-handle:hover,
+.range-slider.radius .range-slider-handle:focus {
+	background: $darkGreen;
+}
+
+/*2.3 Slider active segment*/
+.range-slider-active-segment {
+	background: $darkGreenTint75;
+}
+
+/*3. Switches
+=====================================================================================================*/
+.switch label {
+	background: $darkGreenTint75;
+}
+.switch input:checked + label {
+	background: $darkGreen;
+}
+.switch-on {
+    position: absolute;
+    left: -65px;
+    top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.switch-off {
+    position: absolute;
+    left: -35px;
+    top: 10px;
+    color: $black;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+/*4. Buttons
+=====================================================================================================*/
+button,
+.button,
+.postfix.button {
+	background: $darkGreen;
+	@include background-image(linear-gradient($green, $darkGreen));
+}
+
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+.postfix.button:hover,
+.postfix.button:focus {
+	background: $blackTint25;
+	@include background-image(linear-gradient($darkGreen, $blackTint25));
+}
+
+/*5. Labels
+=====================================================================================================*/
+span.prefix,
+label.prefix,
+span.postfix,
+label.postfix {
+	background: $natureGreenTint75;
+}
+
+/*6. Forms
+=====================================================================================================*/
+[data-abide] .error small.error,
+[data-abide] .error span.error,
+[data-abide] span.error,
+[data-abide] small.error {
+	background: $roseTint50;
+	color: $black;
+}
+.error label,
+.error label.error {
+	font-weight: bold;
+	color: $darkGreen;
+}
+/*7. Links
+=====================================================================================================*/
+a,
+a:not(.button) {
+	color: $blue;
+}
+a:hover {
+	text-decoration: underline;
+}

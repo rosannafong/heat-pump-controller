@@ -1,0 +1,35 @@
+/*Table of contents
+1. Back to top button
+2. Button styles
+	2.1 Light button
+=====================================================================================================
+*/
+
+/*1. Back to top button
+=====================================================================================================*/
+.up-button {
+    margin-top: 1em;
+    @media($break-md-min) {
+        float: right;
+        margin-top: 0;
+    }
+}
+
+/*2. Button styles
+=====================================================================================================*/
+/*2.1 Light button*/
+button.light,
+.button.light {
+	background: none;
+	color: $white;
+	border: 2px solid $natureGreenTint75;
+}
+
+button.light:hover,
+button.light:focus,
+.button.light:hover,
+.button.light:focus {
+	background: $darkGreen;
+  @include opacity(0.9);
+	color: $white;
+}

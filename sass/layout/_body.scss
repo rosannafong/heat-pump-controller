@@ -1,0 +1,54 @@
+/*Table of contents
+1. Sections
+2. Demo areas
+	2.1 Images
+	2.2 Demo container
+3. Custom boxes
+=====================================================================================================
+*/
+
+/*1. Sections
+=====================================================================================================*/
+section {
+	border-bottom: 1px solid $green;
+	padding-bottom: 1em;
+}
+section:last-child, section > section {
+	border: 0;
+}
+
+/*2. Demo areas
+=====================================================================================================*/
+/*Images*/
+.demo img {
+	padding: 1em;
+}
+
+/*Demo container*/
+.demo-container {
+	position: relative;
+	 overflow: hidden;
+	 height: 580px;
+	@media screen and ($break-md-min) {
+		padding-bottom: 99%;
+    	height: 0;
+    }
+
+    iframe {
+    	position: absolute;
+	    top:0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+    }
+}
+
+/*3. Custom boxes
+=====================================================================================================*/
+.box {
+	padding: 1em;
+}
+.border {
+	@extends .box;
+	border: 1px solid $darkGreenTint50;
+}

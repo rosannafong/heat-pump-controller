@@ -1,0 +1,92 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive components - Components - Pattern Library - Heatpump control</title>
+    <link rel="stylesheet" href="../css/foundation.css" />
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link href="../img/favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- Core JavaScript inserted in the head -->
+    <script src="../js/min/head.min.js"></script>
+  </head>
+  <body>
+    <div class="page-wrap">
+      <header>
+        <div class="contain-to-grid">
+          <nav class="top-bar primary-navigation" data-topbar role="navigation" data-options="is_hover: false">
+              <!--Navigation content goes here-->
+          </nav>
+        </div>
+      </header>
+      <main>
+        <article>
+          <div class="row">
+            <div class="large-12 columns">
+              <!--Main content goes here-->
+              <div class="panel">
+                <h1>Interactive components</h1>
+                <p>Sliders and switches.</p>
+              </div>
+              <section>
+                <h2>Sliders</h2>
+                <section>
+                  <h3>With counter</h3>
+                  <div class="row">
+                    <div class="medium-10 columns">
+                      <!--label id="sliderLabel">Temperature control</label-->
+                      <div class="range-slider radius" data-slider="17" data-options="display_selector: #sliderOutput; start: 10; end: 30; step: 1; precision: null;">
+                        <span class="range-slider-handle" role="slider" tabindex="0" aria-labelledby="sliderLabel" aria-valuemin="10" aria-valuemax="30" aria-valuenow="17"></span>
+                        <span class="range-slider-active-segment"></span>
+                      </div>
+                    </div>
+                    <div class="medium-2 columns">
+                      <span class="slider-output" id="sliderOutput"></span><span> °C</span>
+                    </div>
+                  </div>
+                </section>
+                <section>
+                  <h3>With user input</h3>
+                  <div class="row">
+                    <div class="medium-10 columns">
+                      <div class="range-slider radius" data-slider data-options="display_selector: #counter; initial: 21; start: 10; end: 30; step: 1; precision: null;">
+                        <span class="range-slider-handle" role="slider" tabindex="0"></span>
+                        <span class="range-slider-active-segment"></span>
+                      </div>
+                    </div>
+                    <div class="medium-2 columns">
+                      <input type="number" id="counter" value="21" />
+                    </div>
+                  </div>
+                </section>
+              </section>
+              <section>
+                <h2>Switches</h2>
+                <fieldset class="switch round large" tabindex="0">
+                  <input id="on-off" type="checkbox">
+                  <label for="on-off">
+                    <span class="switch-on">ON</span>
+                    <span class="switch-off">OFF</span>
+                  </label>
+                </fieldset>
+              </section>
+            </div>
+          </div>
+        </article>
+      </main>
+    </div>
+    <footer>
+      <!--Footer content goes here-->
+    </footer>
+    <!--script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script-->
+    <!-- Core JavaScript inserted below the footer
+        ================================================== --> 
+    <!-- Placed at the end of the document so the pages load faster --> 
+    <script src="../js/min/body.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

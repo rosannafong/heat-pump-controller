@@ -1,0 +1,89 @@
+/*Table of contents
+1. Text
+2. Headers
+3. Links
+    3.1 Header links
+    3.2. Body links
+    3.3 Footer links
+=====================================================================================================
+*/
+
+/*1. Text
+=====================================================================================================*/
+html, body, page-wrap {
+    color: $black;
+}
+
+/*2. Headers
+=====================================================================================================*/
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: $black;
+    text-rendering: optimizeLegibility;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+    text-transform: none;
+}
+.h1 {
+	font-size: 2.44444rem;
+}
+.h2 {
+	font-size: 2.05556rem;
+}
+.h3 {
+	font-size: 1.5rem;
+}
+.h4 {
+	font-size: 1.27778rem;
+}
+.h5 {
+	font-size: 1rem;
+}
+.h6 {
+	font-size: 0.8rem;
+}
+
+/*3. Links
+=====================================================================================================*/
+/*3.1 Header links
+------------------------*/
+header {
+    a {
+        color: $white;
+    }
+    a:hover {
+        color: #whiteShade15;
+    }
+    a:focus, button:focus {
+        outline: 2px solid $greenTint50;
+    }
+}
+
+/*3.2 Body links
+------------------------*/
+main {
+    a:hover {
+        color: #darkGreen;
+    }
+    a:focus, button:focus {
+        outline: 2px solid $green;
+        outline-offset: 2px;
+    }
+}
+
+/*3.3 Footer links
+------------------------*/
+footer {
+    a {
+        color: $white;
+    }
+    a:hover {
+        color: #whiteShade15;
+    }
+    a:focus, button:focus {
+        outline: 2px solid $greenTint50;
+    }
+}

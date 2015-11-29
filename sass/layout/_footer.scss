@@ -1,0 +1,29 @@
+/*Table of contents
+1. Footer styles
+
+/*1. Footer styles
+=====================================================================================================*/
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: 3em; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+footer, .page-wrap:after {
+  height: auto; 
+}
+footer{
+  background: $darkGreen;
+  @include background-image(linear-gradient($darkGreen, $blackTint25));
+  color: $white;
+  padding-top: 0.5em;
+}

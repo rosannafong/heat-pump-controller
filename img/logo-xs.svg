@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="69px" height="39px" viewBox="0 0 69 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 1 + Path 1 + Rectangle 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Path-1-+-Path-1-+-Rectangle-1" sketch:type="MSLayerGroup" transform="translate(-15.000000, -17.000000)">
+            <g id="Path-1-+-Path-1" transform="translate(17.000000, 20.000000)" stroke="#7F7F7F" stroke-width="5" sketch:type="MSShapeGroup">
+                <path d="M0,0 L19.07099,15.5457974 L39.2224757,0.13433908 L65.5,16.2471264" id="Path-1" fill="#CD9987" transform="translate(32.750000, 8.123563) scale(1, -1) translate(-32.750000, -8.123563) "></path>
+                <path d="M0,16.6896552 L19.07099,32.2354526 L39.2224757,16.8239943 L65.5,32.9367816" id="Path-1" fill="#9DB2A7"></path>
+            </g>
+            <rect id="Rectangle-1" sketch:type="MSShapeGroup" x="0" y="0" width="99" height="74"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,68 @@
+/*Table of contents
+1. Header
+=====================================================================================================
+*/
+
+/*1. Header
+=====================================================================================================*/
+header {
+	background-color: $blackTint25;
+	-webkit-box-shadow: 0 8px 6px -6px $blackTint50;
+	-moz-box-shadow: 0 8px 6px -6px $blackTint50;
+	box-shadow: 0 8px 8px -6px $blackTint50;
+	margin-bottom: 1em;
+	.name a {
+		display: block;
+	}
+	.top-bar-section .has-dropdown > a:after {
+		display: none;
+	}
+	.contain-to-grid,
+	.top-bar,
+	.top-bar-section ul li,
+	.top-bar-section li:not(.has-form) a:not(.button) {
+		background: $blackTint25;
+	}
+	.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+		background: $blackTint25;
+   		@include background-image(linear-gradient($blackTint25, $black));
+		color: $white;
+		margin: 0 0 1px 0;
+	}
+	.top-bar-section li:not(.has-form) a:not(.button):focus,
+	.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button):focus {
+		background: $beige;
+		color: $black;
+	}
+	.top-bar-section li.active:not(.has-form) a:not(.button) {
+		background: $roseTint25;
+		moz-box-shadow: inset 0 0 10px $rose;
+   		-webkit-box-shadow: inset 0 0 10px $rose;
+   		box-shadow: inset 0 0 10px $rose;
+		color: $black;
+		margin: 0 0 1px 0;
+	}
+	.title-area {
+		padding: 1em;
+	}
+	.top-bar {
+		height: 5em;
+		.toggle-topbar {
+			margin-right: 0.5em;
+		}
+	}
+	.top-bar-section {
+		padding-top: 1em;
+		.right {
+			@media screen and ($break-md-min){
+				margin-right: 1em;
+			}
+		}
+	}
+	.top-bar-section .left li > a {
+		@media screen and ($break-md-min) {
+			width: auto;
+			margin: 0 0.2em 0.2em 0.2em;
+		}
+	}
+}

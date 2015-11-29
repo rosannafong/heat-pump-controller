@@ -1,0 +1,123 @@
+/*Table of contents
+1. Tabs
+	1.1 Sub tab styles
+2. Demo top navigation
+=====================================================================================================
+*/
+
+
+/*1. Tabs
+=====================================================================================================*/
+.tabs {
+	background: $green;
+	border: 1px solid $darkGreen;
+	@media screen and ($break-md-min) {
+		background: $green;
+		@include background-image(linear-gradient($greenTint50, $greenTint25));
+	}
+}
+.tab-title {
+	a {
+		border-right: 1px solid $darkGreen;
+		background: $green;
+		@include background-image(linear-gradient($greenTint50, $greenTint25));
+		color: $black;
+		text-decoration: none;
+	}
+	a:focus {
+		outline: none;
+		text-decoration: underline;
+	}
+	.fa {
+		@media screen and ($break-md-min) {
+	    	font-size: 1rem;
+	    }
+	}
+}
+.tab-title.active a {
+	background: $whiteShade5;
+	@include background-image(linear-gradient($white, $whiteShade5));
+	color: $black;
+	text-decoration: none;
+}
+.text {
+	position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    @media screen and ($break-md-min) {
+    	position: relative;
+    }
+}
+.tabs-content {
+	section,
+	section > section:last-child {
+		border: 0;
+	}
+	section > section {
+		border-bottom: 1px solid $darkGreen;
+	}
+}
+
+/*1.1 Sub tab styles*/
+#panel-2 {
+	.tabs {
+		background: none;
+		border-bottom: 1px solid $darkGreen;
+		border-top: 0;
+		border-left: 0;
+		border-right: 0;
+	}
+	.tab-title {
+		a {
+			border: 0;
+			background: none;
+			color: $blue;
+			text-decoration: none;
+			padding: 0 1.5em 0.5em 0 ;
+		}
+		a:focus {
+			outline: none;
+			text-decoration: underline;
+		}
+	}
+	.tab-title.active a {
+		background: none;
+		color: $black;
+		text-decoration: none;
+		font-weight: bold;
+	}
+}
+/*2. Demo top navigation
+=====================================================================================================*/
+.demo-top-nav {
+	height: 3.4em;
+	padding: 0.5em;
+	background-color: $blackTint25;
+	-webkit-box-shadow: 0 8px 6px -6px $blackTint50;
+	-moz-box-shadow: 0 8px 6px -6px $blackTint50;
+	box-shadow: 0 8px 8px -6px $blackTint50;
+	color: $white;
+	a {
+		color: $blueTint50;
+		display: block;
+	}
+	.top-bar-section ul li,
+	.top-bar-section li:not(.has-form) a:not(.button) {
+		background: $blackTint25;
+	}
+	.top-bar-section .right li > a {
+		line-height: 2.5rem;
+		@media screen and ($break-md-min) {
+			width: auto;
+			margin: 0 0.4em;
+		}
+	}
+	.fa {
+		font-size: 1.5em;
+	}
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 9 + Path 1 + Path 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Rectangle-9-+-Path-1-+-Path-1" sketch:type="MSLayerGroup">
+            <rect id="Rectangle-9" stroke="#3F3F3F" fill="#F2F2F2" sketch:type="MSShapeGroup" x="0" y="0" width="64" height="64" rx="8"></rect>
+            <g id="Path-1-+-Path-1" transform="translate(2.000000, 17.000000)" stroke="#7F7F7F" sketch:type="MSShapeGroup">
+                <path d="M1.1827957,0.806451613 L17.9636389,14.427847 L35.6952261,0.924160964 L58.8172043,15.0423591" id="Path-1" fill="#CD9987" transform="translate(30.000000, 7.924405) scale(1, -1) translate(-30.000000, -7.924405) "></path>
+                <path d="M1.1827957,15.4301075 L17.9636389,29.0515029 L35.6952261,15.5478169 L58.8172043,29.666015" id="Path-1" fill="#9DB2A7"></path>
+            </g>
+        </g>
+    </g>
+</svg>

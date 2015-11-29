@@ -1,0 +1,245 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings - Features - Pattern Library - Heatpump control</title>
+    <link rel="stylesheet" href="../css/foundation.css" />
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link href="../img/favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- Core JavaScript inserted in the head -->
+    <script src="../js/min/head.min.js"></script>
+  </head>
+  <body>
+    <div class="page-wrap">
+      <header>
+        <div class="contain-to-grid">
+          <nav class="top-bar primary-navigation" data-topbar role="navigation" data-options="is_hover: false">
+              <!--Navigation content goes here-->
+          </nav>
+        </div>
+      </header>
+      <main>
+        <article>
+          <div class="row">
+            <div class="large-12 columns">
+              <!--Main content goes here-->
+              <div class="panel">
+                <h1>Settings</h1>
+                <p>User account and heat pump settings.</p>
+              </div>
+              <div class="box border">
+                <ul class="tabs" data-tab role="tablist">
+                  <li class="tab-title" role="presentation"><a href="#panel-1" role="tab" tabindex="0" aria-selected="true" aria-controls="panel-1"><span class="text">Heat pump </span><i class="fa fa-home fa-2x"></i></a></li>
+                  <li class="tab-title active" role="presentation"><a href="#panel-2" role="tab" tabindex="0" aria-selected="false" aria-controls="panel-2"><span class="text">Settings</span> <i class="fa fa-sliders fa-2x"></i></a></li>
+                  <li class="tab-title" role="presentation"><a href="#panel-3" role="tab" tabindex="0" aria-selected="false" aria-controls="panel-3"><span class="text">Support</span> <i class="fa fa-info-circle fa-2x"></i></a></li>
+                </ul>
+                <div class="tabs-content">
+                  <section role="tabpanel" aria-hidden="false" class="content" id="panel-1">
+                    <section>
+                      <h3>Heat pump unit 1</h3>
+                      <div class="row">
+                        <div class="medium-3 columns">
+                          <dl>
+                            <dt>Power <i class="fa fa-power-off"></i></dt>
+                            <dd>
+                              <fieldset class="switch round large" tabindex="0">
+                                <input id="on-off" type="checkbox">
+                                <label for="on-off">
+                                  <span class="switch-on">ON</span>
+                                  <span class="switch-off">OFF</span>
+                                </label>
+                              </fieldset>
+                            </dd>
+                            <dt>Power on at:</dt>
+                            <dd>20:30</dd>
+                            <dt>Power off at:</dt>
+                            <dd>07:00</dd>
+                          </dl>
+                        </div>
+                        <div class="medium-9 columns">
+                          <dl>
+                            <dt>Set temperature <i class="fa fa-arrows-h"></i></dt>
+                            <dd>
+                              <span class="slider-output" id="sliderOutput"></span><span class="slider-output"> °C</span>
+                              <div class="range-slider radius" data-slider="17" data-options="display_selector: #sliderOutput; start: 10; end: 30; step: 1; precision: null;">
+                                <span class="range-slider-handle" role="slider" tabindex="0" aria-labelledby="sliderLabel" aria-valuemin="10" aria-valuemax="30" aria-valuenow="17"></span>
+                                <span class="range-slider-active-segment"></span>
+                              </div>
+                            </dd>
+                            <dt>Set timer <i class="fa fa-clock-o"></i></dt>
+                            <dd>
+                              <form>
+                                <div class="row">
+                                  <div class="large-6 columns">
+                                    <div class="row collapse">
+                                      <div class="small-3 columns">
+                                        <span class="prefix">Start</span>
+                                      </div>
+                                      <div class="small-9 columns">
+                                        <input type="text" placeholder="20:30">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="large-6 columns">
+                                    <div class="row collapse">
+                                      <div class="small-3 columns">
+                                        <span class="prefix">End</span>
+                                      </div>
+                                      <div class="small-9 columns">
+                                        <input type="text" placeholder="07:00">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="large-12 columns">
+                                    <button type="submit">Set time</button>
+                                  </div>
+                                </div>
+                              </form>
+                            </dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </section>
+                    <section>
+                      <h3>Add unit</h3>
+                      <p>Add another heat pump. This will take you to the settings tab.</p>
+                      <button type="button">Add unit <i class="fa fa-plus"></i></button>
+                    </section>
+                  </section>
+                  <section role="tabpanel" aria-hidden="true" class="content active" id="panel-2">
+                    <h2>User settings</h2>
+                    <div class="row">
+                      <div class="medium-6 columns">
+                        <h3>Display mode</h3>
+                        <div class="box border">
+                          <h4>User details</h4>
+                          <a href="#">Edit <i class="fa fa-edit"></i></a>
+                          <dl>
+                            <dt>Name</dt>
+                            <dd>John Doe</dd>
+                            <dt>Email address</dt>
+                            <dd>john.doe@mail.com</dd>
+                            <dt>Password</dt>
+                            <dd>********</dd>
+                          </dl>
+                          <hr/>
+                          <h4>Heat pump details</h4>
+                          <a href="#">Edit <i class="fa fa-edit"></i></a>
+                          <dl>
+                            <dt>Heat pump name</dt>
+                            <dd>Unit 1</dd>
+                            <dt>Company</dt>
+                            <dd>Mitsubishi Electric</dd>
+                            <dt>Model</dt>
+                            <dd>MSZ-GE50VAD</dd>
+                            <dt>Serial number</dt>
+                            <dd>5001627</dd>
+                            <dt>Wi-Fi adapter</dt>
+                            <dd>MAC-558IF-E</dd>
+                          </dl>
+                        </div>
+                      </div>
+                      <div class="medium-6 columns">
+                        <h3>Edit mode</h3>
+                        <div class="box border">
+                          <form>
+                            <fieldset>
+                              <legend>User details</legend>
+                              <label><h6>First name</h6>
+                                <input type="text" placeholder="John">
+                              </label>
+                              <label><h6>Last name</h6>
+                                <input type="text" placeholder="Doe">
+                              </label>
+                              <label><h6>Email address</h6>
+                                <input type="text" placeholder="john.doe@mail.com">
+                              </label>
+                              <label><h6>Password</h6>
+                                <input type="text" placeholder="********">
+                              </label>
+                            </fieldset>
+                            <fieldset>
+                              <legend>Heat pump details</legend>
+                              <label><h6>Heat pump name</h6>
+                                <input type="text" placeholder="Unit 1">
+                              </label>
+                              <h6>Company</h6>
+                                <input type="radio" name="company" value="Daikin" id="daikin"><label for="daikin">Daikin</label>
+                                <input type="radio" name="company" value="Fujitsu" id="fujitsu"><label for="fujitsu">Fujitsu</label>
+                                <input type="radio" checked="checked" name="company" value="Mitsubishi Electric" id="mitsubishiElectric"><label for="mitsubishiElectric">Mitsubishi Electric</label>
+                              <label><h6>Model</h6>
+                                <input type="text" placeholder="MSZ-GE50VAD">
+                              </label>
+                              <label><h6>Serial number</h6>
+                                <input type="text" placeholder="5001627">
+                              </label>
+                              <label><h6>Wi-Fi adapter</h6>
+                                <input type="text" placeholder="MAC-558IF-E">
+                              </label>
+                              <a href="#">Add unit <i class="fa fa-plus"></i></a>
+                            </fieldset>
+                            <button type="submit">Save <i class="fa fa-floppy-o"></i></button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <section role="tabpanel" aria-hidden="true" class="content" id="panel-3">
+                    <h2>User support</h2>
+                    <section>
+                      <h3>User manual</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. </p>
+                      <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante.</p>
+                    </section>
+                    <section>
+                      <h3>Installation guide</h3>
+                      <p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
+                      <ol>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</li>
+                        <li>Praesent libero. Sed cursus ante dapibus diam.</li>
+                        <li>Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</li>
+                        <li>Praesent mauris. Fusce nec tellus sed augue semper porta.</li>
+                        <li>Mauris massa. Vestibulum lacinia arcu eget nulla.</li>
+                        <li>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
+                        <li>urabitur sodales ligula in libero.</li>
+                        <li>Sed dignissim lacinia nunc.</li>
+                      </ol>
+                    </section>
+                    <section>
+                      <h3>Downloads</h3>
+                      <ul>
+                        <li><a href="#">user-manual.pdf (PDF 123 KB) <i class="fa fa-pdf-o"></i></a></li>
+                        <li><a href="#">installation-guide.pdf (PDF 100 KB) <i class="fa fa-pdf-o"></i></a></li>
+                      </ul>
+                    </section>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </main>
+    </div>
+    <footer>
+      <!--Footer content goes here-->
+    </footer>
+    <!--script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script-->
+    <!-- Core JavaScript inserted below the footer
+        ================================================== --> 
+    <!-- Placed at the end of the document so the pages load faster --> 
+    <script src="../js/min/body.min.js"></script>
+    <script>
+      $(document).foundation({
+        tab:{
+          callback : function (tab) {
+          $(document).foundation('slider', 'reflow');
+        }}
+      });
+    </script>
+  </body>
+</html>
