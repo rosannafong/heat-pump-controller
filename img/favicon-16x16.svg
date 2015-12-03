@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.4.3 (16044) - http://www.bohemiancoding.com/sketch -->
-    <title>favicon-dark-16x16</title>
+    <title>favicon-16x16</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="favicon-dark-16x16" sketch:type="MSLayerGroup">
-            <rect id="Rectangle-9" stroke="#3F3F3F" fill="#3F3F3F" sketch:type="MSShapeGroup" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <g id="favicon-16x16" sketch:type="MSLayerGroup">
+            <rect id="Rectangle-9" stroke="#3F3F3F" fill="#F2F2F2" sketch:type="MSShapeGroup" x="0" y="0" width="16" height="16" rx="2"></rect>
             <g id="logo-icon" transform="translate(1.500000, 1.500000)" sketch:type="MSShapeGroup">
                 <rect id="Rectangle-11" fill="#CD9987" x="1.96830986" y="0.909090909" width="4.48591549" height="2"></rect>
                 <path d="M10.2326291,1.90909091 L6.38755869,3.81818182 L6.38755869,0 L10.2326291,1.90909091 L10.2326291,1.90909091 Z" id="Triangle-1" fill="#CD9987"></path>

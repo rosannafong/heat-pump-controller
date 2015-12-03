@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="99px" height="74px" viewBox="0 0 99 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
-    <title>Rectangle 1 + Path 1 + Path 1</title>
+<svg width="103px" height="103px" viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.3 (16044) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-dark-xs</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Rectangle-1-+-Path-1-+-Path-1" sketch:type="MSLayerGroup">
-            <rect id="Rectangle-1" stroke="#979797" stroke-width="0.5" fill="#3F3F3F" sketch:type="MSShapeGroup" x="0" y="0" width="99" height="74"></rect>
-            <g id="Path-1-+-Path-1" transform="translate(17.000000, 22.000000)" stroke="#7F7F7F" stroke-width="5" sketch:type="MSShapeGroup">
-                <path d="M0,0 L19.07099,15.5457974 L39.2224757,0.13433908 L65.5,16.2471264" id="Path-1" fill="#CD9987" transform="translate(32.750000, 8.123563) scale(1, -1) translate(-32.750000, -8.123563) "></path>
-                <path d="M0,16.6896552 L19.07099,32.2354526 L39.2224757,16.8239943 L65.5,32.9367816" id="Path-1" fill="#9DB2A7"></path>
+        <g id="logo-dark-xs" sketch:type="MSLayerGroup">
+            <rect id="Rectangle-29" fill="#3F3F3F" sketch:type="MSShapeGroup" x="0" y="0" width="103" height="103"></rect>
+            <g id="logo-icon" transform="translate(12.000000, 12.000000)" sketch:type="MSShapeGroup">
+                <rect id="Rectangle-11" fill="#CD9987" x="11.8537154" y="5.47581074" width="27.0154444" height="12.0467836"></rect>
+                <path d="M61.6237696,11.4992026 L38.4676744,22.9984051 L38.4676744,0 L61.6237696,11.4992026 L61.6237696,11.4992026 Z" id="Triangle-1" fill="#CD9987"></path>
+                <rect id="Rectangle-11" fill="#9DB2A7" transform="translate(52.802400, 66.804891) scale(-1, 1) translate(-52.802400, -66.804891) " x="39.2946778" y="60.7814992" width="27.0154444" height="12.0467836"></rect>
+                <path d="M16.540068,66.804891 L39.6961632,78.3040936 L39.6961632,55.3056885 L16.540068,66.804891 L16.540068,66.804891 Z" id="Triangle-1" fill="#9DB2A7"></path>
+                <path d="M72.5006314,11.725515 L72.5006314,38.5569876 L60.3712482,38.5569876 L60.3712482,11.725515 L72.5006314,11.725515 L72.5006314,11.725515 Z" id="Rectangle-11" fill="#CD9987"></path>
+                <path d="M66.6469979,61.1151814 L55.0689503,38.1167763 L78.2250455,38.1167763 L66.6469979,61.1151814 L66.6469979,61.1151814 Z" id="Triangle-1" fill="#CD9987"></path>
+                <path d="M5.513356,39.9734184 L5.513356,66.804891 L17.6427392,66.804891 L17.6427392,39.9734184 L5.513356,39.9734184 L5.513356,39.9734184 Z" id="Rectangle-11" fill="#9DB2A7"></path>
+                <path d="M11.5780476,17.374524 L0,40.3729291 L23.1560952,40.3729291 L11.5780476,17.374524 L11.5780476,17.374524 Z" id="Triangle-1" fill="#9DB2A7"></path>
             </g>
         </g>
     </g>
