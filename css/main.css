@@ -723,7 +723,7 @@ ol li:before {
 =====================================================================================================*/
 /* line 97, ../sass/components/_navigation.scss */
 .demo-top-nav {
-  height: 3.4em;
+  height: 4em;
   padding: 0.5em;
   background-color: #3f3f3f;
   -webkit-box-shadow: 0 8px 6px -6px #7f7f7f;
