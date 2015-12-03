@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.4.3 (16044) - http://www.bohemiancoding.com/sketch -->
     <title>logo-dark-xs</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="logo-dark-xs" sketch:type="MSLayerGroup">
-            <rect id="Rectangle-29" fill="#3F3F3F" sketch:type="MSShapeGroup" x="0" y="0" width="82" height="82"></rect>
-            <g id="logo-xs" transform="translate(10.000000, 10.000000)" sketch:type="MSShapeGroup">
-                <rect id="Rectangle-11" fill="#CD9987" x="9.49998722" y="4.33566434" width="21.6511337" height="9.53846154"></rect>
-                <path d="M49.3874708,9.1048951 L30.8293563,18.2097902 L30.8293563,0 L49.3874708,9.1048951 L49.3874708,9.1048951 Z" id="Triangle-1" fill="#CD9987"></path>
-                <rect id="Rectangle-11" fill="#9DB2A7" transform="translate(42.317713, 52.895105) scale(-1, 1) translate(-42.317713, -52.895105) " x="31.4921461" y="48.1258741" width="21.6511337" height="9.53846154"></rect>
-                <path d="M13.2557961,52.8951049 L31.8139107,62 L31.8139107,43.7902098 L13.2557961,52.8951049 L13.2557961,52.8951049 Z" id="Triangle-1" fill="#9DB2A7"></path>
-                <path d="M58.104573,9.28408586 L58.104573,30.5288411 L48.3836558,30.5288411 L48.3836558,9.28408586 L58.104573,9.28408586 L58.104573,9.28408586 Z" id="Rectangle-11" fill="#CD9987"></path>
-                <path d="M53.4132639,48.3900787 L44.1342066,30.1802885 L62.6923212,30.1802885 L53.4132639,48.3900787 L53.4132639,48.3900787 Z" id="Triangle-1" fill="#CD9987"></path>
-                <path d="M4.41859871,31.6503497 L4.41859871,52.8951049 L14.1395159,52.8951049 L14.1395159,31.6503497 L4.41859871,31.6503497 L4.41859871,31.6503497 Z" id="Rectangle-11" fill="#9DB2A7"></path>
-                <path d="M9.27905728,13.756886 L0,31.9666762 L18.5581146,31.9666762 L9.27905728,13.756886 L9.27905728,13.756886 Z" id="Triangle-1" fill="#9DB2A7"></path>
+            <rect id="Rectangle-29" fill="#3F3F3F" sketch:type="MSShapeGroup" x="0" y="0" width="58" height="58"></rect>
+            <g id="logo-xs" transform="translate(4.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <rect id="Rectangle-11" fill="#CD9987" x="7.57042254" y="3.4965035" width="17.2535211" height="7.69230769"></rect>
+                <path d="M39.3562658,7.34265734 L24.5675334,14.6853147 L24.5675334,0 L39.3562658,7.34265734 L39.3562658,7.34265734 Z" id="Triangle-1" fill="#CD9987"></path>
+                <rect id="Rectangle-11" fill="#9DB2A7" transform="translate(33.722463, 42.657343) scale(-1, 1) translate(-33.722463, -42.657343) " x="25.0957024" y="38.8111888" width="17.2535211" height="7.69230769"></rect>
+                <path d="M10.5633803,42.6573427 L25.3521127,50 L25.3521127,35.3146853 L10.5633803,42.6573427 L10.5633803,42.6573427 Z" id="Triangle-1" fill="#9DB2A7"></path>
+                <path d="M46.3028169,7.48716601 L46.3028169,24.6200331 L38.556338,24.6200331 L38.556338,7.48716601 L46.3028169,7.48716601 L46.3028169,7.48716601 Z" id="Rectangle-11" fill="#CD9987"></path>
+                <path d="M42.5643706,39.024257 L35.1700044,24.3389423 L49.9587368,24.3389423 L42.5643706,39.024257 L42.5643706,39.024257 Z" id="Triangle-1" fill="#CD9987"></path>
+                <path d="M3.52112676,25.5244755 L3.52112676,42.6573427 L11.2676056,42.6573427 L11.2676056,25.5244755 L3.52112676,25.5244755 L3.52112676,25.5244755 Z" id="Rectangle-11" fill="#9DB2A7"></path>
+                <path d="M7.3943662,11.0942629 L0,25.7795776 L14.7887324,25.7795776 L7.3943662,11.0942629 L7.3943662,11.0942629 Z" id="Triangle-1" fill="#9DB2A7"></path>
             </g>
         </g>
     </g>
