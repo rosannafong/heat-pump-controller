@@ -393,7 +393,7 @@ header .title-area {
 }
 /* line 48, ../sass/layout/_header.scss */
 header .top-bar {
-  height: 5.5em;
+  height: 6em;
 }
 /* line 50, ../sass/layout/_header.scss */
 header .top-bar .toggle-topbar {
